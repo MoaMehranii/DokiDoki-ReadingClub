@@ -1,0 +1,15 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Java build
+out/
+target/
+*.class
+
+# OS
+.DS_Store
+
+# Runtime files
+backup.ser
+backup.ser.tmp
