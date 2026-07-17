@@ -1,0 +1,13 @@
+package shared.model.enums;
+
+public enum MessageType {
+    INFO,
+    ERROR,
+    SUCCESS,
+    FUNDRAISER_STARTED,
+    DONATION_RECEIVED,
+    FUNDRAISER_COMPLETED,
+    JOIN_REQUEST_RECEIVED,
+    JOIN_REQUEST_ACCEPTED,
+    JOIN_REQUEST_REJECTED
+}
