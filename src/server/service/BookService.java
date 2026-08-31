@@ -6,7 +6,7 @@ import shared.model.*;
 import shared.network.Response;
 import java.util.*;
 
-public class BookService {
+public class  BookService {
     private final StateManager state = StateManager.getInstance();
 
     public Response getMarketList() {

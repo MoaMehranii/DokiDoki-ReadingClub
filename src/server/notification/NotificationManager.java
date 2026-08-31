@@ -2,6 +2,7 @@ package server.notification;
 
 import shared.network.Notification;
 import shared.util.JsonUtil;
+
 import java.io.PrintWriter;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -66,17 +67,6 @@ public class NotificationManager {
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 
     public void broadcastToClub(Set<String> memberIds, String type, String message) {
@@ -88,6 +78,7 @@ public class NotificationManager {
     public static class UdpEndpoint {
         public final String ip;
         public final int port;
+
         public UdpEndpoint(String ip, int port) {
             this.ip = ip;
             this.port = port;
